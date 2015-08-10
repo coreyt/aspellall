@@ -87,7 +87,6 @@ with open(args['infile'],'rb') as fin:
         with open(args['outfile'], 'a') as myfile:
             myfile.write(newline)
 
-
 with open(args['journalfile'],'wb') as jfo:
     writer = csv.writer(jfo, delimiter='|', quoting=csv.QUOTE_NONNUMERIC)
     writer.writerows(journal)
