@@ -1,2 +1,2 @@
-# aspellall
-Uses aspell library to automatically fix misspellings in a file
+# autoaspell
+Uses aspell library to fix misspellings in a file automatically without intervention.
